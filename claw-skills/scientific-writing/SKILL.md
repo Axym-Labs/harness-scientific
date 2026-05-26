@@ -19,6 +19,8 @@ traceability, and clarity take priority over ornamental completeness.
 4. Keep observations/results separate from interpretation. State effect sizes,
    uncertainty, controls, limitations, and negative results where relevant.
 5. Use `scientific-critical-thinking` before finalizing consequential claims.
+6. Store project manuscripts and rendered/exported outputs under
+   `<project-dir>/docs/artifacts/`.
 
 ## Presentation
 

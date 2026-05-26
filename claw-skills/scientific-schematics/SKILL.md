@@ -18,8 +18,9 @@ communication tool rather than a mandatory document requirement.
    diagram, plotting/vector tooling, or a configured image-generation tool.
 4. Check scientific correctness, label legibility, accessibility, and whether
    the image implies unsupported causality or precision.
-5. Store editable/source artifacts alongside rendered output when the figure
-   is part of a durable project deliverable.
+5. Store editable/source artifacts alongside rendered output under
+   `<project-dir>/docs/artifacts/` when the figure is a durable project
+   deliverable.
 
 Never invent experimental structure or biological/mechanical detail for visual
 appeal.

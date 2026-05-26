@@ -27,9 +27,9 @@ One hypothesis, one controlled intervention, one evidence-bounded conclusion.
   comparison.
 - Negative and inconclusive results are results; report them.
 - A proxy metric gain does not by itself establish the broader claim.
-- Record material experimental evidence in project-local `docs/progress.md`
-  and use `capture-knowledge` for durable conclusions worth preserving.
-  without filling it with trivial checks.
+- Report material experimental evidence to Claw for verified recording in
+  project-local `docs/progress.md`, and use `capture-knowledge` for durable
+  conclusions worth preserving without filling it with trivial checks.
 
 For open-ended research direction or publishable interpretation also load
 `scientific-work` and, when assessing conclusions, `scientific-critical-thinking`.

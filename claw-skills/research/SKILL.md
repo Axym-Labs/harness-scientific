@@ -18,6 +18,9 @@ description: Use when gathering sourced evidence about a question and producing 
    requirements, output contract, and acceptance check.
 5. For durable results, use `capture-knowledge` to write or update a linked
    note under `$VAULT_PATH/Knowledge/research/`.
+6. Store project-specific reports, exports, figures, and other produced
+   artifacts under the project's `docs/artifacts/`, linking to them from a
+   knowledge note when useful.
 
 ## Output
 

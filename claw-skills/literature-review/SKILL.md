@@ -27,6 +27,8 @@ particular paid backend or generated visual assets.
 Include question/scope, search method, selected evidence, synthesis, limits,
 open questions, and external links. For a new scientific direction, hand the
 result to `scientific-work` before framing novelty or experiments.
+When the review is a project deliverable, store it under that project's
+`docs/artifacts/`; reserve vault notes for durable linked knowledge.
 
 Do not create diagrams or invoke external services unless they are useful to
 the deliverable and available under the current tool/credential policy.

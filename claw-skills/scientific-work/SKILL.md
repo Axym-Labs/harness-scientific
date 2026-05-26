@@ -41,6 +41,9 @@ behavior. Record material constraints in the project spec or exploration note.
 7. Separate observed evidence, interpretation, uncertainty, and recommendation
    in the deliverable. Use `scientific-writing`, `scientific-visualization`,
    or `scientific-schematics` only when the output needs them.
+8. Keep project reports, figures, exports, and agent-produced artifacts under
+   the project's `docs/artifacts/`; use the vault for structured knowledge and
+   links to those artifacts.
 
 ## Judgment Gates
 
