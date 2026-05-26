@@ -14,7 +14,7 @@ description: Use when gathering sourced evidence about a question and producing 
 3. For a research claim load `scientific-work`; for a broad prior-work survey
    load `literature-review`; for a controlled comparison load `test-hypothesis`.
 4. Execute directly or, when delegating collection/analysis, load
-   `supervising-delegated-work` and dispatch with an explicit question, source
+   `supervising` and dispatch with an explicit question, source
    requirements, output contract, and acceptance check.
 5. For durable results, use `capture-knowledge` to write or update a linked
    note under `$VAULT_PATH/Knowledge/research/`.
