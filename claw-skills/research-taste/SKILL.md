@@ -4,6 +4,40 @@ description: Research judgement, selection and qualtiy.
 ---
 # Research Taste: Judgement, Selection, and Quality
 
+## Core Insights
+
+1. Feynman: self-deception is the first enemy  
+   Use the rule: "you must not fool yourself."  
+   Before trusting a result, ask what you may have hidden from yourself: bad controls, cherry-picked examples, confounded evaluation, or a story invented after seeing the answer.
+
+2. Platt: prefer disproof-shaped experiments  
+   Good experiments are organized around "alternative hypotheses" and a "crucial experiment."  
+   A result has better taste when it rules out nearby explanations, not merely when it supports your favored one.
+
+3. Domingos: generalization is the actual target  
+   In ML, "generalization" matters more than training performance or benchmark theater.  
+   Watch for leakage, repeated validation-set tuning, weak baselines, and distribution shifts hidden behind aggregate metrics.
+
+4. Domingos: separate representation, evaluation, optimization  
+   Use the decomposition "representation + evaluation + optimization."  
+   When judging a paper, ask which part actually improved; many papers claim a new algorithm when the real gain is representation, data, metric choice, or tuning.
+
+5. Domingos: overfitting is not only a train/test curve  
+   "Overfitting has many faces."  
+   A research community can overfit too: to benchmarks, reviewer preferences, fashionable narratives, or a narrow set of tasks.
+
+6. Peyton Jones: writing is a test of thought  
+   Use "Don't wait: write."  
+   Draft the abstract, contribution, and strongest objection early; unclear writing often reveals unclear research.
+
+7. Shannon: simplify to the essentials  
+   Shannon recommends "simplification": cut the problem down until only the essential difficulty remains.  
+   A tasteful contribution often looks smaller than the original ambition but sharper, more inspectable, and more reusable.
+
+8. Feynman: keep the full evidence visible  
+   Scientific integrity requires showing the evidence that could make you look wrong.  
+   A paper that only presents supporting evidence is not necessarily false, but it is not yet trustworthy.
+
 ## What is Research?
 
 Research is anything but homework. Finding a good problem to study is part of research. Research is about pushing the limits: dismiss the problem if the solution is not interesting. Research is a game for which you get to set the rules, but it cannot be a trivial one!

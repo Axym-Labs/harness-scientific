@@ -5,6 +5,48 @@ description: Important information about being a researcher.
 
 # Research Trajectory: Career, Long-Term Planning, and Success
 
+## Core insights
+
+1. Hamming: work on important problems  
+   Keep asking: what are the "important problems" of the field?  
+   The long-term mistake is not failing at a hard problem; it is spending years on problems that would not matter even if solved.
+
+2. Hamming: importance requires attackability  
+   A problem is not important merely because the consequence would be huge; it also needs a "reasonable attack."  
+   Time-scale taste means finding problems that are both consequential and reachable from your current tools, collaborators, and field momentum.
+
+3. Hamming: reserve time for trajectory thinking  
+   Hamming used "Great Thoughts Time."  
+   Build a recurring habit of asking where the field is going, what will become easier, what will become obsolete, and where you should stand before the opportunity arrives.
+
+4. Alon: problem choice is part of the science  
+   Alon's premise: "Choosing good problems is essential."  
+   Do not treat problem choice as pre-research administration; it is one of the highest-leverage scientific acts.
+
+5. Nielsen: develop taste explicitly  
+   Nielsen calls for "developing a taste for what's important."  
+   Study which ideas aged well, which died, which unified separate facts, and which only looked promising under temporary incentives.
+
+6. Sutton: respect scalable general methods  
+   Sutton's bitter lesson warns against "building in how we think we think."  
+   For ML trajectories, ask whether your idea benefits from more compute, more data, broader search, and better learning, or whether progress makes it irrelevant.
+
+7. Shannon: follow constructive dissatisfaction  
+   Shannon's phrase is "constructive dissatisfaction."  
+   A good long-term direction often begins with the feeling: this works, but there should be a cleaner, more general, or more natural way.
+
+8. Schwartz: use productive ignorance  
+   Schwartz calls this "productive stupidity": being "ignorant by choice."  
+   A strong trajectory puts you near questions where not knowing is evidence that you are close to the frontier, not merely underprepared.
+
+9. Nielsen: value enabling work  
+   Do not rank ideas only by immediate difficulty or prestige.  
+   Prefer work that enables new questions, creates reusable tools, clarifies concepts, or changes what other researchers can attempt.
+
+10. Hamming: prepare for opportunities  
+   "Luck favors the prepared mind."  
+   Keep a live list of 10-20 important problems, so that when a new method, dataset, theorem, or hardware shift appears, you can connect it quickly to something that matters.
+
 ## Reasons: Know Your Purpose
 
 Research is not a profession, it is first a hobby!
