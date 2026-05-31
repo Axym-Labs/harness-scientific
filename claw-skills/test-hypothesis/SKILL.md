@@ -7,7 +7,7 @@ description: Use when answering one empirical question with a baseline and one c
 
 One hypothesis, one controlled intervention, one evidence-bounded conclusion.
 
-## Procedure
+## Workflow
 
 1. State a falsifiable hypothesis before running the experiment.
 2. Specify the dependent metric, baseline, controlled variables, expected

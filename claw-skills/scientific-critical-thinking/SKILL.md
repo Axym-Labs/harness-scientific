@@ -8,7 +8,7 @@ description: Use when evaluating scientific evidence, experimental design, valid
 Adapted from K-Dense's upstream `scientific-critical-thinking` skill for
 Claw's focused research workflow.
 
-## Evaluation
+## Workflow
 
 1. Identify the precise claim and whether it is descriptive, predictive,
    causal, mechanistic, or a contribution/novelty claim.
@@ -24,7 +24,7 @@ Claw's focused research workflow.
 6. Grade the conclusion as supported, suggestive, inconclusive, or unsupported
    and state what would most efficiently distinguish remaining explanations.
 
-## ML-Specific Checks
+### ML-Specific Checks
 
 - Confirm splits, evaluation procedure, seeds/variance, baseline fairness, and
   whether tuning information leaks into comparison.

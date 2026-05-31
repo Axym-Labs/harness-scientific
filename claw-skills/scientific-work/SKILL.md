@@ -10,7 +10,7 @@ runs or improved metrics. Claw retains responsibility for the question,
 experimental validity, interpretation, and claims even when implementation is
 delegated.
 
-## Value And Hidden Constraints
+## Principles
 
 For a proposed research direction, ask whether it offers contribution,
 insight, utility, or novelty, and what evidence would establish that value.
@@ -19,7 +19,7 @@ including latency, compute or data cost, memory, deployment compatibility,
 safety, and whether downstream work requires exact rather than approximate
 behavior. Record material constraints in the project spec or exploration note.
 
-## Protocol
+## Workflow
 
 1. Define the question and mode: bounded engineering optimization, controlled
    hypothesis test, exploratory evidence gathering, or potential publishable
@@ -45,7 +45,7 @@ behavior. Record material constraints in the project spec or exploration note.
    the selected task arc's `docs/<task-arc>/artifacts/`; use the vault for
    structured knowledge and links to those artifacts.
 
-## Judgment Gates
+## Rules
 
 - Do not silently change the research question after results arrive.
 - Do not present a recombination of familiar ideas as novel without checking
@@ -59,7 +59,7 @@ behavior. Record material constraints in the project spec or exploration note.
 - Do not describe a successful run or plausible narrative as scientific
   progress without evidence for the underlying claim.
 
-## Agent Failure Modes
+## Failure Modes
 
 For nontrivial open-ended work or any consequential claim, actively guard
 against the six recurring failure modes reported by Trehan and Chopra from

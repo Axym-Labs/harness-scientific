@@ -34,7 +34,7 @@ papers, this incorporates Jakob Foerster's *How to ML Paper - A Brief Guide*.
 7. Store project manuscripts and rendered/exported outputs under
    `<project-dir>/docs/<task-arc>/artifacts/`.
 
-## ML Paper Structure
+## Principles
 
 Use the venue's format when specified. For a typical ML research paper:
 
@@ -53,7 +53,7 @@ Not every paper is an empirical method paper: adapt this shape to the selected
 paper form rather than pretending a position, theory, or dataset contribution
 is an algorithm leaderboard paper.
 
-## Common Mistakes
+## Failure Modes
 
 - Blurring prior work, a problem definition, and the paper's own
   contributions. State exactly what is new.
@@ -70,7 +70,7 @@ is an algorithm leaderboard paper.
 - Duplicating tables/figures in prose, leaving broken references, or including
   a symbol that is never used.
 
-## Presentation
+## Rules
 
 - Write finished manuscript text as coherent prose unless the requested genre
   calls for a checklist or table.

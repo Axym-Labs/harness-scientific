@@ -9,7 +9,7 @@ Adapted from K-Dense's upstream `peer-review` skill without mandatory visual
 asset generation. For ML papers, this incorporates Jakob Foerster's *How to
 ML Review - A Brief Guide* and defers to the applicable venue policy.
 
-## Before Reading
+## Principles
 
 1. Check the venue's reviewer form, confidentiality, anonymity, conflict,
    ethics, and AI-assistance policy. Venue policy overrides this skill.
@@ -18,7 +18,7 @@ ML Review - A Brief Guide* and defers to the applicable venue policy.
 3. Identify the paper type and appropriate burden of evidence rather than
    assuming every contribution must achieve state of the art.
 
-## Review Sequence
+## Workflow
 
 1. Skim for the question, claimed contribution, form of paper, methods, and
    main findings. Record what the authors claim before judging it.
@@ -34,7 +34,7 @@ ML Review - A Brief Guide* and defers to the applicable venue policy.
 6. State a recommendation after the argument, and state what author response
    or bounded additional evidence could change it when applicable.
 
-## Computational/ML Additions
+### Computational/ML Additions
 
 - Check code/data availability, configurations, baselines, tuning fairness,
   leakage, seeds, compute comparability, and whether metrics establish the
@@ -50,7 +50,7 @@ ML Review - A Brief Guide* and defers to the applicable venue policy.
 - Use `scientific-critical-thinking` for a focused validity assessment and
   `literature-review` when prior-work coverage or novelty must be checked.
 
-## Required Review Document
+## Output
 
 Write the review to
 `<project-dir>/docs/<task-arc>/artifacts/<paper-name>-review.md`.
