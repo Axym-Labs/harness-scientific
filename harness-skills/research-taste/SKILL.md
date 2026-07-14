@@ -1,6 +1,6 @@
 ---
 name: research-taste
-description: Research judgement, selection and qualtiy.
+description: Research judgment, selection, and quality. Use broadly when evaluating research directions, choosing which ideas deserve work, or judging rigor and contribution quality.
 ---
 # Research Taste: Judgement, Selection, and Quality
 

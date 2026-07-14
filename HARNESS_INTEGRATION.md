@@ -37,6 +37,7 @@ The curated layer:
 | `scientific-work` | Integration protocol for scientific planning, execution, and interpretation. |
 | `research` | Local durable evidence-collection workflow moved from the Harness core. |
 | `test-hypothesis` | Local controlled-experiment workflow moved from the Harness core and strengthened for claim validity. |
+| `arxiv` | arXiv PDF/source download and metadata search skill created by Tim Scarfe, packaged with its bundled CLI for local use. |
 
 Scientific writing now lives in the owned writing suite as `write-scientific`.
 
