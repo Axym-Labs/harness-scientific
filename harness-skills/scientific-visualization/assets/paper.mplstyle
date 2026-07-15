@@ -9,7 +9,7 @@ savefig.dpi: 300
 savefig.bbox: tight
 axes.spines.top: False
 axes.spines.right: False
-axes.prop_cycle: cycler('color', ['darkblue'])
+axes.prop_cycle: cycler('color', [(0.2471, 0.1294, 0.7137)])
 
 # When a figure may be reused in a paper, slide, or website, also save a
 # transparent-background artifact, e.g. fig.savefig(path, transparent=True).

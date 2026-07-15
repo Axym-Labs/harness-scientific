@@ -17,6 +17,11 @@ description: Use when creating, polishing, or reviewing plots and visual encodin
   when useful.
 - The bundled paper-like Matplotlib style is `assets/paper.mplstyle`; resolve
   it from the directory containing this `SKILL.md` when useful.
+- If a core performance figure compares our methods with baselines, use
+  `#3F21B6` for the primary method, the lighter same-hue `#8C7AD3` for a
+  secondary method, and the darker neutral `#7A7A7A` for every baseline or
+  comparison. Keep the primary method visually dominant; do not give a
+  comparison another accent color.
 - Use a table for simple data. For richer data, prefer line plots, more complex
   plots, and information-dense views such as a metric over a two-dimensional
   plane.
