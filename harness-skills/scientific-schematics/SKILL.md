@@ -19,7 +19,7 @@ communication tool rather than a mandatory document requirement.
 4. Check scientific correctness, label legibility, accessibility, and whether
    the image implies unsupported causality or precision.
 5. Store editable/source artifacts alongside rendered output under
-   `<project-dir>/docs/<task-arc>/artifacts/` when the figure is a durable project
+   `<task-arc-dir>/artifacts/` when the figure is a durable project
    deliverable.
 
 Never invent experimental structure or biological/mechanical detail for visual

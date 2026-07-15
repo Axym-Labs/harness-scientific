@@ -28,7 +28,7 @@ One hypothesis, one controlled intervention, one evidence-bounded conclusion.
 - Negative and inconclusive results are results; report them.
 - A proxy metric gain does not by itself establish the broader claim.
 - Report material experimental evidence to Harness for verified recording in
-  project-local `docs/<task-arc>/progress.md`, and use `knowledge-organization`
+  project-local `<task-arc-dir>/progress.md`, and use `knowledge-organization`
   for durable conclusions worth preserving without filling it with trivial
   checks.
 

@@ -42,7 +42,7 @@ behavior. Record material constraints in the project spec or exploration note.
    in the deliverable. Use `write-scientific`, `scientific-visualization`,
    or `scientific-schematics` only when the output needs them.
 8. Keep project reports, figures, exports, and agent-produced artifacts under
-   the selected task arc's `docs/<task-arc>/artifacts/`; use the vault for
+   `<task-arc-dir>/artifacts/`; use the vault for
    structured knowledge and links to those artifacts.
 
 ## Rules

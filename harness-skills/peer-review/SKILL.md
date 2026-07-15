@@ -53,7 +53,7 @@ ML Review - A Brief Guide* and defers to the applicable venue policy.
 ## Output
 
 Write the review to
-`<project-dir>/docs/<task-arc>/artifacts/<paper-name>-review.md`.
+`<task-arc-dir>/artifacts/<paper-name>-review.md`.
 Keep two levels distinct:
 
 1. **Abstract-level assessment**: claimed question and contribution, paper

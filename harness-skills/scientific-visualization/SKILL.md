@@ -15,10 +15,8 @@ description: Use when creating, polishing, or reviewing plots and visual encodin
   available.
 - Use vector output (`.pdf` or `.svg`) for durable figures and a `.png` preview
   when useful.
-- For quick numeric CSV plots, use this skill's bundled
-  `scripts/csv-plot.py` when its simple x/y interface fits; its default
-  paper-like Matplotlib style is `assets/paper.mplstyle`. Resolve both paths
-  from the directory containing this `SKILL.md`.
+- The bundled paper-like Matplotlib style is `assets/paper.mplstyle`; resolve
+  it from the directory containing this `SKILL.md` when useful.
 - Use a table for simple data. For richer data, prefer line plots, more complex
   plots, and information-dense views such as a metric over a two-dimensional
   plane.
@@ -38,7 +36,7 @@ description: Use when creating, polishing, or reviewing plots and visual encodin
    or facets when helpful.
 4. Use consistent scales for comparisons unless a deliberate exception is
    labeled clearly.
-5. Store figure files under `docs/<task-arc>/artifacts/`.
+5. Store figure files under `<task-arc-dir>/artifacts/`.
 6. Use `scientific-critical-thinking` when a plot supports a substantive
    claim, and `scientific-schematics` for conceptual rather than measured
    content.
