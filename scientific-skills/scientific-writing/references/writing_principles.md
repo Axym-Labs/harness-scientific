@@ -401,30 +401,20 @@ oligo-dT primers, then amplified with SYBR Green fluorescent detection."
 | "conduct an examination" | "examine" |
 | "achieve a reduction" | "reduce" |
 
-### 3. Hedging Excessively or Insufficiently
+### 3. Wording That Does Not Match the Evidence
 
-**Excessive hedging** (sounds uncertain):
-```
-"It could perhaps be possible that the intervention might possibly have some effect
-on symptoms under certain conditions."
-```
+State findings directly. If the evidence is weak, use careful wording; do not
+add qualifiers to claims the evidence supports.
 
-**Insufficient hedging** (overstates conclusions):
+**Overstated:**
 ```
 "The intervention cures depression."
 ```
 
-**Appropriate hedging:**
+**Direct:**
 ```
-"The intervention significantly reduced depressive symptoms in this sample,
-suggesting it may be effective for treating mild to moderate depression."
+"The intervention reduced depressive symptoms in this sample."
 ```
-
-**Hedging words to use appropriately:**
-- Suggests, indicates, implies (not proves, demonstrates for correlational data)
-- May, might, could (possibilities)
-- Appears to, seems to (observations needing confirmation)
-- Likely, probably, possibly (degrees of certainty)
 
 ### 4. Anthropomorphism
 
@@ -764,7 +754,6 @@ showing preserved expressive power, and (3) empirical validation on ImageNet sho
 | **Paragraph length** | 3-5 sentences | 5-7 sentences | 6-10 sentences | 4-6 sentences |
 | **Math/equations** | Minimize | Rare | Moderate | Essential |
 | **Active voice** | Preferred | Mixed | Passive OK | Preferred |
-| **Hedging** | Moderate | Conservative | Detailed | Minimal (claim gains) |
 | **Figure integration** | Tight | Systematic | Detailed | Dense, in-page |
 
 ### Evaluation Focus by Venue

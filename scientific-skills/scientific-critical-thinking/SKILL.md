@@ -436,7 +436,7 @@ Systematically evaluate scientific claims for validity and support.
 
 4. **Evaluate Proportionality**
    - Is confidence proportional to evidence strength?
-   - Are hedging words used appropriately?
+   - Is careful wording reserved for weak evidence?
    - Are limitations downplayed?
    - Is speculation clearly labeled?
 
@@ -457,7 +457,7 @@ Systematically evaluate scientific claims for validity and support.
 **Provide specific feedback:**
 - Quote the problematic claim
 - Explain what evidence would be needed to support it
-- Suggest appropriate hedging language if warranted
+- Suggest careful wording where the evidence is weak
 - Distinguish between data (what was found) and interpretation (what it means)
 
 ## Application Guidelines

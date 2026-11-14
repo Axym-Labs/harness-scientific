@@ -34,7 +34,7 @@ Nature and Science are the world's premier multidisciplinary scientific journals
 | **Accessible** | Avoid jargon; explain technical concepts |
 | **Engaging** | Hook the reader; tell a story |
 | **Significant** | Emphasize why this matters broadly |
-| **Confident** | State findings clearly (with appropriate hedging) |
+| **Confident** | State findings clearly |
 | **Active** | Use active voice; first person acceptable |
 
 ### Voice

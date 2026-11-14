@@ -32,7 +32,7 @@ Medical journals prioritize **clinical relevance**, **patient outcomes**, and **
 
 | Characteristic | Description |
 |---------------|-------------|
-| **Evidence-focused** | Appropriate hedging based on study design |
+| **Evidence-focused** | Careful wording where the study design gives weak evidence |
 | **Patient-centered** | Focus on patient outcomes, not just biomarkers |
 | **Clinical** | Emphasize practical applicability |
 | **Precise** | Exact numbers, confidence intervals, NNT |
@@ -63,7 +63,7 @@ main outcomes - 2-4 sentences]
 Results: [Primary and key secondary outcomes with statistics - 
 3-5 sentences]
 
-Conclusions: [Clinical implications, with appropriate hedging - 
+Conclusions: [Clinical implications, stated directly - 
 1-2 sentences]
 ```
 
@@ -136,14 +136,9 @@ with increased severe hypoglycemia.
 
 ✅ **Use for RCTs**: "Treatment X resulted in..." / "Treatment X reduced..."
 
-### Hedging Phrases
+### Claim Wording
 
-| Certainty Level | Phrases |
-|----------------|---------|
-| **High** | "demonstrates," "shows," "confirms" |
-| **Moderate** | "suggests," "indicates," "supports" |
-| **Low** | "may," "might," "could potentially" |
-| **Speculative** | "it is possible that," "one interpretation is" |
+State findings directly. If the evidence is weak, use careful wording.
 
 ---
 
@@ -516,7 +511,7 @@ Standard presentation:
 
 ### Evidence Language
 - [ ] Claims match study design
-- [ ] Appropriate hedging used
+- [ ] Careful wording only where the evidence is weak
 - [ ] Causal language only for RCTs
 
 ### Clinical Relevance

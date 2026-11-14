@@ -80,7 +80,7 @@ Medical journals prioritize **clinical relevance** and **patient outcomes**. Eve
 ### Key Writing Principles
 
 1. **Patient-centered language**: "Patients receiving treatment X" not "Treatment X subjects"
-2. **Evidence strength**: Careful hedging based on study design
+2. **Evidence strength**: If the study design gives weak evidence, use careful wording
 3. **Clinical actionability**: "So what?" for practicing physicians
 4. **Absolute numbers**: Report absolute risk reduction, not just relative
 5. **Structured abstracts**: Required with labeled sections
@@ -238,14 +238,10 @@ When targeting Nature/Science/Cell from a specialized venue:
 | IEEE | Less common | Prefer "This paper presents..." |
 | ML Conferences | Yes (we) | "We introduce..." |
 
-### Hedging and Certainty
+### Claim Strength
 
-| Claim Strength | Language |
-|---------------|----------|
-| Strong | "X causes Y" (only with causal evidence) |
-| Moderate | "X is associated with Y" / "X leads to Y" |
-| Tentative | "X may contribute to Y" / "X suggests that..." |
-| Speculative | "It is possible that X..." / "One interpretation is..." |
+State claims directly. If the evidence is weak, use careful wording. Use causal
+language ("X causes Y") only with causal evidence.
 
 ---
 

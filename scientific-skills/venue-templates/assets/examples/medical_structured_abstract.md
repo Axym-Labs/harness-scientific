@@ -83,7 +83,7 @@ use of PPIs and further investigation to establish causality.
 ```
 
 **Key Features**:
-- Appropriate hedging for observational study ("associated with")
+- Careful wording for observational evidence ("associated with")
 - Incidence rates provided (per 1000 person-years)
 - Sensitivity analyses mentioned
 - Negative control (H2-receptor antagonists)
@@ -290,7 +290,7 @@ that statin use protects against Parkinson's disease.
 
 ### Conclusions
 - Clear statement of main finding
-- Appropriate hedging based on study design
+- Careful wording where the study design gives weak evidence
 - Clinical implication (optional, 1 sentence)
 
 ---

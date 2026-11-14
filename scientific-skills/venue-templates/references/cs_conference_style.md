@@ -371,7 +371,7 @@ ogbn-papers | 111M   | 1.6B   |  OOM  |   OOM     | 42.3
 
 ### Precision
 - **Exact numbers**: "23.4%" not "about 20%"
-- **Clear claims**: Avoid hedging unless necessary
+- **Clear claims**: Do not hedge; if the evidence is weak, use careful wording
 - **Specific comparisons**: Name the baseline
 
 ## Contribution Bullets
