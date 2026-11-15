@@ -20,6 +20,7 @@ from datetime import timezone
 from pathlib import Path
 
 import arxiv
+import requests
 
 
 def parse_arxiv_id(raw: str) -> str:
@@ -95,17 +96,41 @@ def print_info(r: arxiv.Result, as_json: bool = False) -> None:
         print(f"  Abstract:   {textwrap.shorten(d['abstract'], width=200)}")
 
 
+USER_AGENT = "arxiv-dl/1.0 (research paper fetcher; python-requests)"
+
+
+def _default_filename(r: arxiv.Result, extension: str) -> str:
+    """`{id}.{sanitized_title}.{ext}`, the naming scheme of arxiv<4."""
+    title = re.sub(r"[^\w]", "_", r.title or "UNTITLED")
+    return f"{r.get_short_id().replace('/', '_')}.{title}.{extension}"
+
+
+def _download(r: arxiv.Result, kind: str, outdir: str, filename: str | None, extension: str) -> str:
+    """Download /pdf/ or /src/ for a result from export.arxiv.org. Returns path.
+
+    arxiv>=4 removed Result.download_pdf/download_source, so fetch directly.
+    """
+    url = f"https://export.arxiv.org/{kind}/{r.get_short_id()}"
+    path = os.path.join(outdir, filename or _default_filename(r, extension))
+    resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=120, stream=True)
+    resp.raise_for_status()
+    if kind == "pdf" and "pdf" not in resp.headers.get("Content-Type", ""):
+        raise RuntimeError(f"Expected a PDF from {url}, got {resp.headers.get('Content-Type')}")
+    with open(path + ".part", "wb") as f:  # rename on success: no truncated files
+        for chunk in resp.iter_content(chunk_size=1 << 16):
+            f.write(chunk)
+    os.replace(path + ".part", path)
+    return path
+
+
 def download_pdf(r: arxiv.Result, outdir: str, filename: str | None) -> str:
     """Download PDF. Returns path."""
-    fname = filename if filename else ""
-    path = r.download_pdf(dirpath=outdir, filename=fname)
-    return path
+    return _download(r, "pdf", outdir, filename, "pdf")
 
 
 def download_source(r: arxiv.Result, outdir: str, filename: str | None, extract: bool = False) -> str:
     """Download source tarball. Returns path."""
-    fname = filename if filename else ""
-    path = r.download_source(dirpath=outdir, filename=fname)
+    path = _download(r, "src", outdir, filename, "tar.gz")
     if extract:
         extract_dir = Path(path).with_suffix("").with_suffix("")  # strip .tar.gz
         extract_dir.mkdir(parents=True, exist_ok=True)
