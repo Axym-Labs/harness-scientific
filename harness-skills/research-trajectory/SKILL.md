@@ -47,6 +47,14 @@ description: Important information about being a researcher.
    "Luck favors the prepared mind."  
    Keep a live list of 10-20 important problems, so that when a new method, dataset, theorem, or hardware shift appears, you can connect it quickly to something that matters.
 
+## Practice Evidence (ML, 2026)
+
+For project selection, venues, co-authors, the record gatekeepers read, and
+agent use, see `research-taste`, Project Selection and Strategy. Each
+gatekeeper reads a different currency: PhD committees read letters,
+research-scientist hiring reads first-author main-track papers, labs and
+fellowships read work samples, and immigration counts citations.
+
 ## Olah Research Taste Exercises For Trajectory
 
 - Step back every 1-2 years and list the other research directions you would

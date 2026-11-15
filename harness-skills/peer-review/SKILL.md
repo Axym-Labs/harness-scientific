@@ -50,6 +50,30 @@ ML Review - A Brief Guide* and defers to the applicable venue policy.
 - Use `scientific-critical-thinking` for a focused validity assessment and
   `literature-review` when prior-work coverage or novelty must be checked.
 
+### Automated and Mock Reviews of ML Papers
+
+When an agent reviews a paper (a mock review before submission or a review
+draft), weight the points the way strong human reviewers do, not the way
+current AI reviews do:
+
+- Put conceptual points first: is the contribution novel, is the framing the
+  most general one the evidence supports, does the paper say why it matters,
+  does the main claim follow from the evidence. AI-assisted reviews drift
+  toward robustness chores (seeds, stability, transfer) and question novelty
+  less; keep those requests few and only where they bear on a claim.
+- Always check the three most-cited weaknesses in public ML reviews:
+  baselines (33.5%), scalability or compute (31.1%), and novelty (22.1%).
+- Run the template checks reviewers use: search the title and core idea for
+  prior work, check leaderboards, and look for ablations of every component.
+- Check internal consistency: abstract, introduction, tables, figures, and
+  conclusion must state the same numbers and claims.
+- Distinguish stated limitations (scope) from critical issues; do not turn a
+  limitation into a weakness unless it undermines a claim.
+- Check that each citation supports the sentence it is attached to.
+- Use the review to find issues, not to predict the decision: LLM review
+  scores reach an AUC of about 0.7 at most, rejected 18 of 20 best papers in
+  one test, and shift with status cues such as "accepted version".
+
 ## Output
 
 Write the review to

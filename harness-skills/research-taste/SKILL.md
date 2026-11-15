@@ -38,6 +38,94 @@ description: Research judgment, selection, and quality. Use broadly when evaluat
    Scientific integrity requires showing the evidence that could make you look wrong.  
    A paper that only presents supporting evidence is not necessarily false, but it is not yet trustworthy.
 
+## Project Selection and Strategy (ML, 2026 Evidence)
+
+Defaults for choosing and shaping projects, from a study of how ML papers and
+researchers succeed (forums, insider accounts, ICLR 2023-2026 data; report in
+`~/main/harness/infra-internal/paper-writing-practice/artifacts/final/`).
+
+- **Pilot fast, commit late.** Pilot an idea for days and drop it if the
+  pilot fails; work in project cycles of one to two months, with a
+  submit-or-stop date. There is no time for long upfront commitments to an
+  untested idea. Keep a coherent topic over years: far pivots are penalized
+  (lowest-pivot work reaches the top 5% of citations 7.4% of the time, highest
+  pivot 2.2%), and staying near one's topic helps a little.
+- **Frame toward strong areas when the work allows it.** LLM-adjacent framing
+  goes with 0.2-0.3 SD higher review scores and about 3-4 times the
+  citations; relabelling toward LLM applications or other favoured areas is
+  valid, widely used, and likely to move the bar. Encourage it whenever the
+  opportunity is significant for the work, which it often is.
+- **Target mechanism and benchmark together.** A SOTA record lasts a median of
+  about ten months and accepted papers are presented five to six months after
+  arXiv, so mechanisms, framings, and failure analyses outlive rank claims;
+  aim for both rather than choosing.
+- **Scale the claim to the compute.** Check before running that the
+  available scale can show the effect; if not, choose a claim small scale
+  settles (a mechanism, a controlled failure case, a theorem). A marginal
+  small-scale test of a good idea reads as evidence against it: Transformers
+  for vision were tried and dropped before ViT won with about 100M images.
+- **Being first within months barely matters.** In concurrent pairs, the
+  earlier paper won 17 of 28 (famous pairs) and 12 of 22 (random sample);
+  the winner still collects 2-3.5 times the runner-up's citations. What goes
+  with winning: general framing, breadth of demonstration, a reusable
+  artifact, and early attention.
+- **Review scores barely predict citations within a tier** (Spearman 0.17
+  within ICLR posters, about 0 within orals); acceptance and impact are
+  different targets.
+- **Make artifacts adoptable, not just available.** A public repository
+  linked from arXiv; for baselines, integration into an existing library
+  (Mammoth, Avalanche for continual learning). Code goes with 1.4-1.7 times
+  the citations (an upper bound); where tooling is nearly empty (local
+  learning rules), a benchmark or library is a low-competition bet.
+- **Venues: prefer A and A+ conferences on coherent research topics**, as for
+  a cumulative PhD thesis. Views on TMLR's standing split ("no serious ML
+  researcher would value TMLR over NeurIPS/ICML/ICLR" against "about the same
+  as a non-oral top-tier paper"). Advice on the first venue splits too ("aim
+  high and you get the middle" against practising at a tier-2 venue first);
+  it depends on whether a senior reader is available.
+- **One credible co-author per paper**, for verification, letters, arXiv
+  endorsement, and distribution. At ICLR 2023-2026, solo papers score 0.67 SD
+  below 3-4-author papers and student-only teams 0.50 SD below teams with any
+  non-student, while professor-led teams score no higher than postdoc-led
+  ones; nearly all of these gaps are in the reviewer scores. Senior
+  co-authorship early goes with more citations, most at weaker institutions,
+  while topic independence from the mentor later helps. Network position
+  matters less than it looks: author centrality is the strongest bivariate
+  citation predictor but adds about 0.003 explained variance once content is
+  controlled. Cheap paths: ML
+  Reproducibility Challenge reproductions, library integration, challenges,
+  MATS-type programs, short targeted messages to first authors.
+- **Environment and advisor attention** are named on every Chinese platform
+  as outweighing craft ("individual effort can hardly exceed the effect of
+  the platform"); untested, but consistent with the co-author data.
+- **Plan around quotas and endorsement:** each paper needs an author who
+  qualifies as a reciprocal reviewer (otherwise one paper per author at ICLR
+  and ICML 2027); TMLR allows 2 solo papers a year; arXiv allows 2
+  submissions a month; arrange endorsement through a co-author early.
+- **Build the record each gatekeeper reads:** first-author main-track papers
+  for research-scientist roles; work samples and public write-ups for labs
+  and fellowships (Anthropic asks for independent research and open source at
+  the top of the resume); letters from people the committee knows for PhD
+  programs; few middle authorships; workshop papers labelled as such;
+  application answers written yourself. Offers come mostly through people
+  who know the work: for each paper, name whom it should reach, and present
+  it in person (a cancelled conference cost scheduled papers 5 points in the
+  chance of being cited within four years, more for early-career authors).
+- **Agents: keep the decisions, verify from artifacts.** Fix the claim,
+  acceptance criteria, and a written prediction before a run; check data
+  provenance, full test-set size, and that selection used only train or
+  validation data; recompute numbers from logs; treat "done" or "not
+  possible" as no evidence; make honest failure the cheapest exit ("if X is
+  impossible, stop and report; never substitute data"), which cut undisclosed
+  fabrication from 20.6% to 3.2% in one benchmark. Use scripts to check
+  numbers and LLM critics to look for alternative explanations. AI help
+  raises output but does not build the skill unless one works to understand
+  the output; write the first draft of the core argument yourself.
+- **Confidentiality:** API or commercial tiers, or the training toggle off;
+  no feedback buttons or share links in sessions with an unpublished core
+  idea; a timestamped private git record; when a result is announced, post
+  the paper rather than teasing it.
+
 ## Olah Research Taste Exercises
 
 - List research ideas and ask a respected mentor to rate them; study cases
