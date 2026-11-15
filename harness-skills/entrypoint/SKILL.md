@@ -11,4 +11,6 @@ description: Use as the scientific suite entrypoint when gathering sourced evide
 - Use the skill `scientific-work` for conducting scientific work.
 - Use the skill `mathematical-analysis` for formal mathematical analysis,
   representation choice, or nontrivial derivations.
+- Use the skill `formal-modeling` for turning an intuition or free-text
+  description into a formal model.
 - The other skills are self-explanatory.

@@ -1,9 +1,12 @@
 ---
 name: mathematical-analysis
-description: Use when analyzing mathematical objects, formalizing mathematical problems, or deriving nontrivial mathematical claims where precision, representation choice, and sourced unfamiliar steps matter.
+description: Use when analyzing mathematical objects, stating formalized problems precisely, or deriving nontrivial mathematical claims where precision, representation choice, and sourced unfamiliar steps matter.
 ---
 
 # Mathematical Analysis
+
+To turn an intuition or free-text description into a model in the first place,
+use `formal-modeling`; this skill governs precision once the objects exist.
 
 ## Principles
 

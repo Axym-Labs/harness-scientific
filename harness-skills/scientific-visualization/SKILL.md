@@ -17,6 +17,12 @@ description: Use when creating, polishing, or reviewing plots and visual encodin
   when useful.
 - The bundled paper-like Matplotlib style is `assets/paper.mplstyle`; resolve
   it from the directory containing this `SKILL.md` when useful.
+- Write final paper figures in TikZ/pgfplots so fonts and sizes match the
+  document; keep Matplotlib for exploration and internal plots. Have the
+  analysis code export CSV and read it with `\addplot table`. Start from the
+  bundled `assets/paper-pgfplots.tex`, which defines the house colors below.
+  Fall back to Matplotlib (vector PDF, rasterized dense layers) for data too
+  dense for pgfplots, such as images or very large scatters.
 - If a core performance figure compares our methods with baselines, use
   `#3F21B6` for the primary method, the lighter same-hue `#8C7AD3` for a
   secondary method, and neutral `#BDBDBD` for every baseline or
@@ -24,6 +30,11 @@ description: Use when creating, polishing, or reviewing plots and visual encodin
   comparison another accent color.
 - Save plots with a transparent background by default. Use an opaque background
   only when the figure's meaning or target medium requires it.
+- For a multi-metric comparison of methods, especially a paper's central
+  figure, prefer one radar (spider) chart with a polygon per method over a
+  series of bar plots. Normalize each axis so outward is better, state the
+  normalization in the caption, and keep it to roughly 3-8 metrics. The
+  bundled pgfplots file includes an example.
 - Use a table for simple data. For richer data, prefer line plots, more complex
   plots, and information-dense views such as a metric over a two-dimensional
   plane.
